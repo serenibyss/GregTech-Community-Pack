@@ -1,0 +1,36 @@
+{
+  "preRequisites:11": [],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "Welcome to §2§lGregTech Community Pack§f - §b§lExpert§r.\n\nThis modpack is an extension of the original GregTech Community Pack - albeit with tougher recipes, more mods, and extended gameplay over the original pack. This pack strives to add more content through all the tiers (potentially scaling past §dUltimate Voltage§r!), and integrates a number of other popular mods along the way.\n\nUnlike the original Community Pack, you won\u0027t just be playing around with GregTech. You\u0027ll find yourself dabbling in some §5Magic§r and exploring §6unfamiliar locales§r to make your way to the pack\u0027s ultimate goal, and recipes are a little harder this time.\n\nIf you\u0027re looking for a challenge, you\u0027ve come to the right place!\n\n§6We\u0027ve made sure to keep the questbook informative§r, and we\u0027ll do what we can to guide you through the numerous changes and tweaks. Remember that you can click on the Eye§r icon to toggle §9View Mode§r to read any quest ahead of time. This is one of many features added by §2Better Questing Unofficial§r, yet another great port of a mod.",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "minecraft:grass"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Welcome!",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

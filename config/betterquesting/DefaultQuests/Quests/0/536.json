@@ -1,0 +1,87 @@
+{
+  "preRequisites:11": [
+    535
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "Alright... we lied to you. Right now, the \"best\" material to use for Tinker\u0027s tools is probably Flint.\n\n// TODO",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "tconstruct:pickaxe",
+        "tag:10": {
+          "Modifiers:9": {
+            "0:10": {
+              "color:3": -9868951,
+              "crude1:1": 1,
+              "crude2:1": 1,
+              "identifier:8": "crude",
+              "level:3": 3
+            },
+            "1:10": {
+              "color:3": 16777215,
+              "identifier:8": "toolleveling",
+              "level:3": 1
+            }
+          },
+          "Special:10": {
+            "Categories:9": {
+              "0:8": "tool",
+              "1:8": "harvest",
+              "2:8": "aoe"
+            }
+          },
+          "Stats:10": {
+            "Attack:5": 2.9,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 54,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 1,
+            "MiningSpeed:5": 5.0
+          },
+          "StatsOriginal:10": {
+            "Attack:5": 2.9,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 54,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 1,
+            "MiningSpeed:5": 5.0
+          },
+          "TinkerData:10": {
+            "Materials:9": {
+              "0:8": "flint",
+              "1:8": "flint",
+              "2:8": "flint"
+            },
+            "Modifiers:9": {
+              "0:8": "toolleveling"
+            }
+          },
+          "Traits:9": {
+            "0:8": "crude1",
+            "1:8": "crude2",
+            "2:8": "toolleveling"
+          }
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Baby\u0027s First Tinker Tools",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {}
+}

@@ -1,0 +1,173 @@
+{
+  "preRequisites:11": [
+    536
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "Iron Tool Heads need to be cast with a Tinker\u0027s Construct Smeltery. However, you don\u0027t have access to this right now in progression.\n\nWe\u0027ll make you a trade deal: bring us enough Iron to make a GregTech pickaxe (if you haven\u0027t read the quest on GT tools, check them out!), then demonstrate you\u0027ve mined enough beforehand, and we\u0027ll give you an Iron Tool Head of your choice.\n\nSound good?",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "tconstruct:pickaxe",
+        "tag:10": {
+          "Modifiers:9": {
+            "0:10": {
+              "color:3": -3487030,
+              "identifier:8": "magnetic",
+              "level:3": 3,
+              "magnetic1:1": 1,
+              "magnetic2:1": 1
+            },
+            "1:10": {
+              "color:3": 16777215,
+              "identifier:8": "toolleveling",
+              "level:3": 1
+            }
+          },
+          "Special:10": {
+            "Categories:9": {
+              "0:8": "tool",
+              "1:8": "harvest",
+              "2:8": "aoe"
+            }
+          },
+          "Stats:10": {
+            "Attack:5": 4.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 276,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 2,
+            "MiningSpeed:5": 6.0
+          },
+          "StatsOriginal:10": {
+            "Attack:5": 4.0,
+            "AttackSpeedMultiplier:5": 1.0,
+            "Durability:3": 276,
+            "FreeModifiers:3": 3,
+            "HarvestLevel:3": 2,
+            "MiningSpeed:5": 6.0
+          },
+          "TinkerData:10": {
+            "Materials:9": {
+              "0:8": "iron",
+              "1:8": "iron",
+              "2:8": "iron"
+            },
+            "Modifiers:9": {
+              "0:8": "toolleveling"
+            }
+          },
+          "Traits:9": {
+            "0:8": "magnetic1",
+            "1:8": "magnetic2",
+            "2:8": "toolleveling"
+          }
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Iron Tinker\u0027s Tools",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "choices:9": {
+        "0:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "tconstruct:pick_head",
+          "tag:10": {
+            "Material:8": "iron"
+          }
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "tconstruct:axe_head",
+          "tag:10": {
+            "Material:8": "iron"
+          }
+        },
+        "2:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "tconstruct:shovel_head",
+          "tag:10": {
+            "Material:8": "iron"
+          }
+        },
+        "3:10": {
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "tconstruct:sword_blade",
+          "tag:10": {
+            "Material:8": "iron"
+          }
+        }
+      },
+      "index:3": 0,
+      "rewardID:8": "bq_standard:choice"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 1,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 2,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:iron_ingot"
+        },
+        "1:10": {
+          "Count:3": 1,
+          "Damage:2": 51,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_plate"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 1,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:cobblestone"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

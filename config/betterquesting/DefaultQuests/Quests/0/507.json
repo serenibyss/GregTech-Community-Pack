@@ -1,0 +1,76 @@
+{
+  "preRequisites:11": [
+    515
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "To get slightly more mileage out of your Iron, you\u0027ll want to convert it into Wrought Iron. Any GregTech tools made out of Wrought Iron are 50% more durable than their lesser Iron cousins, saving you from having to remake your flimsy Iron Hammer every time it breaks.\n\nWrought Iron can currently only be made in Nugget form by smelting Iron Nuggets in a Furnace. Make sure you keep a healthy stock of both Iron and Wrought Iron, as it isn\u0027t possible to convert Wrought Iron back into standard Iron.\n\nBoth types of Iron are necessary in progression.",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 335,
+        "OreDict:8": "",
+        "id:8": "gregtech:meta_ingot"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Murder, She Wrought",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 0,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 9,
+          "Damage:2": 0,
+          "OreDict:8": "",
+          "id:8": "minecraft:iron_nugget"
+        },
+        "1:10": {
+          "Count:3": 9,
+          "Damage:2": 335,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_nugget"
+        }
+      },
+      "taskID:8": "bq_standard:optional_retrieval"
+    },
+    "1:10": {
+      "autoConsume:1": 0,
+      "consume:1": 0,
+      "entryLogic:8": "AND",
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 0,
+      "index:3": 1,
+      "partialMatch:1": 1,
+      "requiredItems:9": {
+        "0:10": {
+          "Count:3": 8,
+          "Damage:2": 335,
+          "OreDict:8": "",
+          "id:8": "gregtech:meta_ingot"
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  }
+}

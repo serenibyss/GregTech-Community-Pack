@@ -1,0 +1,38 @@
+{
+  "preRequisites:11": [
+    505
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "Now you\u0027ve gotten a Pickaxe, you can venture into the mines and start gathering ores. GregTech CEu\u0027s ore generation is slightly different to what you may be familiar with; ore veins generate in a grid, each spaced 3 chunks apart in the cardinal directions.\n\nFor now, you\u0027ll have to prospect ores by paying attention to the surface rocks that populate the surface. These surface rocks will spawn above an ore vein, and the types of rocks correspond to the resource of the vein. Any prospected veins will then show up on your Minimap.",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "gregtech:ore_iron_0"
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 1,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Putting the \"Mine\" in \"Minecraft\"",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  }
+}

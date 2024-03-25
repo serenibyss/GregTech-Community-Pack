@@ -1,0 +1,49 @@
+{
+  "preRequisites:11": [
+    536
+  ],
+  "properties:10": {
+    "betterquesting:10": {
+      "autoclaim:1": 0,
+      "desc:8": "If you\u0027re bored of the same old Tinker\u0027s Construct grind, you don\u0027t have to follow its standard progression. GregTech CEu comes with its own suite of tools made from GregTech materials - there\u0027s more to GT tools than Flint.\n\nA benefit to GregTech tools is the fact they are slightly easier to make than Tinker\u0027s tools. However, they do not upgrade over time and cost exponentially increasing amounts of XP to repair.\n\nThe choice is yours!",
+      "globalshare:1": 0,
+      "icon:10": {
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": "",
+        "id:8": "gregtech:pickaxe",
+        "tag:10": {
+          "DisallowContainerItem:1": 0,
+          "GT.Behaviours:10": {
+            "TorchPlacing:1": 1
+          },
+          "GT.Tool:10": {
+            "AttackDamage:5": 3.0,
+            "AttackSpeed:5": -2.8,
+            "Durability:3": 0,
+            "HarvestLevel:3": 2,
+            "Material:8": "gregtech:iron",
+            "MaxDurability:3": 255,
+            "ToolSpeed:5": 6.0
+          },
+          "HideFlags:3": 2
+        }
+      },
+      "ignoresview:1": 0,
+      "ismain:1": 0,
+      "issilent:1": 0,
+      "lockedprogress:1": 0,
+      "name:8": "Gearing up with GregTech",
+      "questlogic:8": "AND",
+      "repeat_relative:1": 1,
+      "repeattime:3": -1,
+      "simultaneous:1": 0,
+      "snd_complete:8": "minecraft:entity.player.levelup",
+      "snd_update:8": "minecraft:entity.player.levelup",
+      "tasklogic:8": "AND",
+      "visibility:8": "ALWAYS"
+    }
+  },
+  "rewards:9": {},
+  "tasks:9": {}
+}

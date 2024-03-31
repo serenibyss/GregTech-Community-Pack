@@ -34,7 +34,7 @@ crafting.shapedBuilder()
 crafting.removeByOutput(item('tconstruct:tooltables', 1))
 crafting.shapedBuilder()
         .name('tconstruct/stencil_table')
-        .output(item('tconstruct:tooltables', 1))
+        .output(item('tconstruct:tooltables', 1).withNbt(["textureBlock": ["id": "minecraft:planks", "Count": 1, "Damage": (short) 0]]))
         .matrix('SPS',
                 'LsL',
                 'L L')

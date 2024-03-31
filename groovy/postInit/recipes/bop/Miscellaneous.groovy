@@ -121,3 +121,5 @@ mods.gregtech.extractor.recipeBuilder()
     .duration(6) 
     .EUt(VA[LV])
     .buildAndRegister()
+
+furnace.add(item('biomesoplenty:seaweed'), metaitem('dustSmallSodaAsh'))

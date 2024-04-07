@@ -19,11 +19,24 @@ crafting.removeByOutput(item('forestry:carpenter'))
 crafting.shapedBuilder()
         .name('forestry/machines/carpenter')
         .output(item('forestry:carpenter'))
-        .matrix('WPW',
-                'WCW',
-                'WMW')
-        .key("W", ore('plateWood'))
+        .matrix('BPB',
+                'BCB',
+                'BMB')
+        .key("B", ore('plateBronze'))
         .key("P", metaitem('electric.piston.lv'))
+        .key("C", item('forestry:sturdy_machine'))
+        .key("M", metaitem('electric.motor.lv'))
+        .register()
+
+crafting.removeByOutput(item('forestry:centrifuge'))
+crafting.shapedBuilder()
+        .name('forestry/machines/centrifuge')
+        .output(item('forestry:centrifuge'))
+        .matrix('BRB',
+                'BCB',
+                'BMB')
+        .key("B", ore('plateBrass'))
+        .key("R", ore('rotorTin'))
         .key("C", item('forestry:sturdy_machine'))
         .key("M", metaitem('electric.motor.lv'))
         .register()
